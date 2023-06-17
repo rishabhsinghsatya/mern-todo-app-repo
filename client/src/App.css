@@ -1,0 +1,72 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(170, 168, 168);
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 100px;
+  color: #640000;
+  font-weight: 400;
+}
+input {
+  font-size: 20px;
+  color: #640000;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #640000;
+  padding: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+.task {
+  background-color: #640000;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task span {
+  color: #ffffff;
+}
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+article {
+  display: grid;
+}
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.button.selected {
+  color: #fff;
+  background-color: #640000;
+}
+
+.button.clear {
+  float: right;
+  color: #fff;
+  background-color: #ee1630;
+  width: 170px;
+}
